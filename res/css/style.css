@@ -1177,6 +1177,7 @@
   width: 650px;
   height: 320px;
   margin: 0 auto;
+  margin-top: 9vh;
   position: relative;
   transition: all 300ms cubic-bezier(0.03, 0.98, 0.53, 0.99) 0s;
   background: transparent;
@@ -1397,7 +1398,7 @@
 .ticket-mobile {
   display: flex;
   position: relative;
-  margin-top: 10vh;
+  margin-top: 7vh;
   z-index: 10;
   padding: 0.25rem;
   border-radius: 15px;
