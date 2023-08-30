@@ -808,7 +808,7 @@
   color: white;
   font-size: 70px;
   position: relative;
-  margin: 0 auto;
+  margin-left: 7px;
 }
 
 @keyframes noise-anim {
@@ -1113,10 +1113,6 @@
   display: none;
 }
 
-.bg-video {
-  object-fit: cover;
-}
-
 .effect-code {
   transition: all 0.5s ease-out;
 }
@@ -1403,7 +1399,8 @@
   padding: 0.25rem;
   border-radius: 15px;
   height: 100vh;
-  background-color: #ffffff;
+  background-color: transparent;
+  border: 4px solid white;
   width: 90%;
   max-width: 320px;
   max-height: 500px;
@@ -1430,7 +1427,7 @@
 
 .ticket-mobile:before {
   border: 4px solid white;
-  top: -32px;
+  top: -35px;
   left: 50%;
   transform: translate(-50%, 0%) rotate(90deg);
   /* transform: rotateX(90deg); */
@@ -1439,7 +1436,7 @@
 
 .ticket-mobile:after {
   border: 4px solid white;
-  bottom: -32px;
+  bottom: -35px;
   left: 50%;
   transform: translate(-50%, 0%) rotate(90deg);
   /* transform: rotateX(90deg); */
@@ -1449,7 +1446,7 @@
 .ticket-content-mobile {
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: transparent;
   max-height: 500px;
   border-radius: 15px;
 }
