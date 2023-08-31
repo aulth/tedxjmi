@@ -1315,12 +1315,20 @@
   height: 5rem;
 }
 
-.ticket-content-wrapper .second {
+.ticket-content-wrapper > .second {
   display: flex;
   gap: 80px;
   align-items: flex-end;
+  width: 100%;
+  /* margin-top: 100px; */
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
 }
-
+/* .ticket-content-wrapper .second .width-100  {
+  display: flex;
+  flex-direction: column;
+} */
 .ticket-content-wrapper .second .width-100 .first {
   font-size: 20px;
   font-weight: 500;
