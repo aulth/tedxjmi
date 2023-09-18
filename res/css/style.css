@@ -1674,3 +1674,7 @@ path.two {
     fill: white;
   }
 }
+
+.object-cover {
+  object-fit: cover;
+}
